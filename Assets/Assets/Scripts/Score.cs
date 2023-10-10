@@ -18,7 +18,7 @@ public class Score : MonoBehaviour
     }
     public void SumarPuntos(float ConteinedScore)
     {
-         float r = float.Parse(ActualScore.text) + ConteinedScore;
+         float r = float.Parse(ActualScore.text) + ConteinedScore; 
         ActualScore.text = r.ToString();
     }
 }

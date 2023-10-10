@@ -15,7 +15,7 @@ public class BulletController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_rigidbody2D.position.y > 5.6f || _rigidbody2D.position.x < -5.6f || _rigidbody2D.position.x < -9.49 || _rigidbody2D.position.x > 9.49)
+        if (_rigidbody2D.position.y > 5.6f || _rigidbody2D.position.y < -5.6f || _rigidbody2D.position.x < -9.49 || _rigidbody2D.position.x > 9.49)
         {
             Destroy(gameObject);
         }
